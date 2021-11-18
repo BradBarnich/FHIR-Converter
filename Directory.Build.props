@@ -1,6 +1,6 @@
 <Project>
   
-  <PropertyGroup>
+  <!-- <PropertyGroup>
     <CodeAnalysisRuleSet>$(MSBuildThisFileDirectory)\CustomAnalysisRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
 
@@ -10,6 +10,6 @@
 
   <ItemGroup>
     <PackageReference Include="StyleCop.Analyzers" Version="1.1.118" />
-  </ItemGroup>
+  </ItemGroup> -->
   
 </Project>
