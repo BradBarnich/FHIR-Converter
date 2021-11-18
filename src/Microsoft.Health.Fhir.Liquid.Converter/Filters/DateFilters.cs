@@ -101,7 +101,9 @@ namespace Microsoft.Health.Fhir.Liquid.Converter
             }
             catch (Exception)
             {
-                throw new RenderException(FhirConverterErrorCode.InvalidDateTimeFormat, string.Format(Resources.InvalidDateTimeFormat, input));
+	            // TODO, log this
+	            // throw new RenderException(FhirConverterErrorCode.InvalidDateTimeFormat, string.Format(Resources.InvalidDateTimeFormat, input));
+	            return string.Empty;
             }
         }
 
